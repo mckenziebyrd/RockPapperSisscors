@@ -2,13 +2,11 @@
 int playerScore = 0;
 int computerScore = 0;
 
-//List<string> options = new List<string>();
-//{
-//   "",
- //  "Rock",
-   //"Paper",
-   //"Scissors"
-//};
+List<string> options = new List<string>();
+{
+   Rock,
+        P
+};
 
 while (playerScore < 3 || computerScore < 3) {
     Console.WriteLine(@$"
